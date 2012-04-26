@@ -1,3 +1,12 @@
 [submodule "core"]
 	path = core
 	url = ssh://git@akvarko.frozen-doe.net/pipeline/core.git
+[submodule "plugin/git"]
+	path = plugin/git
+	url = ssh://git@akvarko.frozen-doe.net/pipeline/plugin/git.git
+[submodule "plugin/block_editor"]
+	path = plugin/block_editor
+	url = ssh://git@akvarko.frozen-doe.net/pipeline/plugin/block_editor.git
+[submodule "plugin/form"]
+	path = plugin/form
+	url = ssh://git@akvarko.frozen-doe.net/pipeline/plugin/form.git
