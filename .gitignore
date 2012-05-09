@@ -1,2 +1,4 @@
-./data
-./var
+data
+data/*
+var
+var/*
