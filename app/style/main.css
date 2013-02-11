@@ -259,6 +259,13 @@ body {
         float: right;
 }
 
+.doc_show {
+}
+
+	.doc_show h2 {
+		margin-bottom: 0em;
+	}
+
 
 /*
 

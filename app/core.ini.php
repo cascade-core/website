@@ -89,7 +89,7 @@ content[]	= "router:content"
 enable[]	= "router:done"
 
 [block:error_page]
-.block		= core/page/error
+.block		= page/error
 enable[]	= :not
 enable[]	= content:content_0_done
 
