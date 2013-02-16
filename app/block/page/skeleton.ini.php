@@ -34,17 +34,11 @@ slot[] = "slot_holder:name"
 slot_weight = "90"
 name = "footer"
 
-[block:menu_builder]
-.block = "core/ini/router_links"
-.x = 267
-.y = 327
-config[] = "load_routes:data"
-
 [block:main_menu]
 .block = "core/out/menu"
 .x = 537
 .y = 181
-items[] = "menu_builder:links"
+items[] = "router_links:links"
 layout = "row"
 active_uri[] = "router:path"
 max_depth = "0"
@@ -95,6 +89,12 @@ name = "page_holder"
 link = "/git"
 slot[] = "slot_footer:name"
 slot_weight = "60"
+
+[block:router_links]
+.block = "core/ini/router_links"
+.x = 263
+.y = 322
+config = "app/routes.ini.php"
 
 
 ; vim:filetype=dosini:

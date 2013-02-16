@@ -72,15 +72,17 @@ IniBlockStorage		= true
 ;
 ;; ... instead of these two:
 
-[block:load_routes]
-.block		= core/ini/load
-filename	= routes.examples.ini.php
-scan_plugins	= true
+;[block:load_routes]
+;.block		= core/ini/load
+;filename	= routes.examples.ini.php
+;scan_plugins	= true
+
+[block:config]
+.block		= core/json/config_loader
 
 [block:router]
 .block		= core/ini/router
-config[]	= load_routes:data
-enable[]	= load_routes:done
+config		= app/routes.ini.php
 
 [block:content]
 .block		= "core/value/cascade_loader"

@@ -10,3 +10,6 @@
 [submodule "plugin/form"]
 	path = plugin/form
 	url = ../plugin/form.git
+[submodule "plugin/admin"]
+	path = plugin/admin
+	url = ../plugin/admin.git
