@@ -81,44 +81,47 @@ IniBlockStorage		= true
 .block		= core/json/config_loader
 
 [block:router]
-.block		= core/ini/router
-config		= app/routes.ini.php
+.block		= core/router
+routes[]	= config:routes
 
-[block:content]
-.block		= "core/value/cascade_loader"
+[block:main]
+.block		= "core/value/block_loader"
+block[]		= "router:block"
+connections[]	= "router:connections"
 output_forward	= "done,title,type"
-content[]	= "router:content"
 enable[]	= "router:done"
-
-[block:error_page]
-.block		= page/error
-enable[]	= :not
-enable[]	= content:content_0_done
 
 [block:skeleton]
 .block		= "page/skeleton"
 enable[]	= ":and"
 enable[]	= "router:skeleton"
-enable[]	= "content:content_0_done"
+enable[]	= "main:done"
+
+[block:error_page]
+.block		= page/error
+enable[]	= :not
+enable[]	= main:done
 
 [block:page_title]
 .block		= core/out/set_page_title
 title[]		= :or
-title[]		= content:content_0_title
+title[]		= main:title
 title[]		= router:title
 format[]	= router:title_fmt
+enable[]	= main:done
 
 [block:page_type]
 .block		= core/out/set_type
 type[]		= :or
-type[]		= content:content_0_type
+type[]		= main:type
 type[]		= router:type
+enable[]	= main:done
 
 ;[block:extra]
 ;.block		= "core/value/cascade_loader"
 ;output_forward	= "done"
 ;extra[]	= "router:extra"
-;enable[]	= "content:content_0_done"
+;enable[]	= "main:done"
 
 
 
