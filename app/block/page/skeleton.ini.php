@@ -38,7 +38,7 @@ name = "footer"
 .block = "core/out/menu"
 .x = 537
 .y = 181
-items[] = "router_links:links"
+items[] = "config:main_menu"
 layout = "row"
 active_uri[] = "router:path"
 max_depth = "0"
@@ -89,12 +89,6 @@ name = "page_holder"
 link = "/git"
 slot[] = "slot_footer:name"
 slot_weight = "60"
-
-[block:router_links]
-.block = "core/ini/router_links"
-.x = 263
-.y = 322
-config = "app/routes.ini.php"
 
 
 ; vim:filetype=dosini:
