@@ -33,19 +33,27 @@
 				"/profiler": {
 					"title": "Profiler",
 					"block": "page/profiler"
-				},
+				}
+			}
+		},
+		"admin": {
+			"require": {
+				"block_allowed": "admin/main"
+			},
+			"defaults": {
+				"skeleton": false
+			},
+			"routes": {
 				"/admin": {
 					"title": "Administration",
-					"block": "admin/main",
-					"skeleton": false
+					"block": "admin/main"
 				},
 				"/admin/**": {
 					"title": "Administration",
 					"block": "admin/main",
 					"connections": {
 						"path": [ "router", "path_tail" ]
-					},
-					"skeleton": false
+					}
 				}
 			}
 		},
