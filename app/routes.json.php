@@ -5,6 +5,7 @@
 		"title": "(missing title)",
 		"type": "html5",
 		"block": null,
+		"block_fmt": null,
 		"connections": {}
 	},
 	"groups": {
@@ -45,6 +46,18 @@
 						"path": [ "router", "path_tail" ]
 					},
 					"skeleton": false
+				}
+			}
+		},
+		"auto": {
+			"defaults": {
+				"block_fmt": "page/%s",
+				"skeleton": true
+			},
+			"routes": {
+				"/$block": {
+				},
+				"/$block/**": {
 				}
 			}
 		}

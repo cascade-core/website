@@ -87,6 +87,7 @@ routes[]	= config:routes
 [block:main]
 .block		= "core/value/block_loader"
 block[]		= "router:block"
+block_fmt[]	= "router:block_fmt"
 connections[]	= "router:connections"
 output_forward	= "done,title,type"
 enable[]	= "router:done"
