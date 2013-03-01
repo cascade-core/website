@@ -16,3 +16,6 @@
 [submodule "plugin/simplecrud"]
 	path = plugin/simplecrud
 	url = ../plugin/simplecrud.git
+[submodule "plugin/jsondb"]
+	path = plugin/jsondb
+	url = ../plugin/jsondb.git
