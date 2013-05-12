@@ -106,20 +106,19 @@ table.table {
 }
 
 
-#_cascade_graph {
+#_cascade_graph.cascade_iframe {
 	font-size: 1em !important;
 }
 
-	#_cascade_graph h2 {
+	#_cascade_graph.cascade_iframe h2 {
 		background: #ff0;
-
 		opacity: 0.80;
 		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 		filter: alpha(opacity=80);
 	}
 
-	#_cascade_graph:hover h2,
-	#_cascade_graph:hover div {
+	#_cascade_graph.cascade_iframe:hover h2,
+	#_cascade_graph.cascade_iframe:hover div {
 		background: #fff;
 	}
 

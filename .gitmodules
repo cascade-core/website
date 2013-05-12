@@ -19,3 +19,7 @@
 [submodule "plugin/jsondb"]
 	path = plugin/jsondb
 	url = ../plugin/jsondb.git
+[submodule "plugin/smalldb"]
+	path = plugin/smalldb
+	url = ../plugin/smalldb.git
+
