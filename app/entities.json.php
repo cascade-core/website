@@ -22,6 +22,14 @@
 									"group": "users"
 								}
 							}
+						},
+						"block": {
+							"inputs": {
+								"item": []
+							},
+							"outputs": {
+								"id": "return_value"
+							}
 						}
 					},
 					"edit": {
@@ -33,6 +41,15 @@
 									"owner": true
 								}
 							}
+						},
+						"block": {
+							"inputs": {
+								"id": [],
+								"item": []
+							},
+							"outputs": {
+								"id": "id"
+							}
 						}
 					},
 					"delete": {
@@ -43,6 +60,13 @@
 								"permissions": {
 									"owner": true
 								}
+							}
+						},
+						"block": {
+							"inputs": {
+								"id": []
+							},
+							"outputs": {
 							}
 						}
 					}
