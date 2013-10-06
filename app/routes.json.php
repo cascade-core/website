@@ -22,14 +22,6 @@
 					"connections": {
 					}
 				},
-				"/documentation": {
-					"title": "Documentation",
-					"block": "core/page/doc"
-				},
-				"/documentation/block/**": {
-					"title": "Documentation",
-					"block": "core/page/doc_show"
-				},
 				"/profiler": {
 					"title": "Profiler",
 					"block": "page/profiler"
