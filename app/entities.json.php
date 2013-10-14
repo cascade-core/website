@@ -5,6 +5,7 @@
 	},
 	"entities": {
 		"item": {
+			"description": "Simple CRUD entity.",
 			"state_machine": {
 				"class": "\\SmallDb\\StateMachine\\ArrayMachine",
 				"states": {
@@ -74,6 +75,7 @@
 			}
 		},
 		"article": {
+			"description": "Article which can be published or rejected.",
 			"state_machine": {
 				"class": "\\SmallDb\\StateMachine\\ArrayMachine",
 				"states": {
