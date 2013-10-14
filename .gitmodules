@@ -13,9 +13,6 @@
 [submodule "plugin/admin"]
 	path = plugin/admin
 	url = ../plugin/admin.git
-[submodule "plugin/simplecrud"]
-	path = plugin/simplecrud
-	url = ../plugin/simplecrud.git
 [submodule "plugin/jsondb"]
 	path = plugin/jsondb
 	url = ../plugin/jsondb.git
