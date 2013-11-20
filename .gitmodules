@@ -20,3 +20,6 @@
 	path = plugin/smalldb
 	url = ../plugin/smalldb.git
 
+[submodule "plugin/duf"]
+	path = plugin/duf
+	url = ../plugin/duf.git
