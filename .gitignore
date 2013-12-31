@@ -2,4 +2,6 @@ data
 data/*
 var
 var/*
+lib
+lib/*
 *.local.json.php

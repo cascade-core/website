@@ -1,0 +1,29 @@
+{
+	"name": "cascade/demo",
+	"description": "...",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Josef Kufner",
+			"email": "jk@frozen-doe.net"
+		}
+	],
+	"repositories": [
+		{ "type": "vcs", "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/book.git" },
+		{ "type": "vcs", "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/developers_manual.git" },
+		{ "type": "vcs", "url": "ssh://git@akvarko.frozen-doe.net/cascade/composer-plugin.git" }
+	],
+	"require": {
+		"cascade/composer-plugin": "dev-master",
+		"cascade/book": "dev-master",
+		"cascade/developers_manual": "dev-master"
+	},
+	"config": {
+		"bin-dir": "bin",
+		"vendor-dir": "lib",
+		"prepend-autoloader": false
+	},
+	"extra": {
+	}
+}
+

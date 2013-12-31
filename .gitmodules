@@ -19,7 +19,12 @@
 [submodule "plugin/smalldb"]
 	path = plugin/smalldb
 	url = ../plugin/smalldb.git
-
 [submodule "plugin/duf"]
 	path = plugin/duf
 	url = ../plugin/duf.git
+[submodule "plugin/developers_manual"]
+	path = plugin/developers_manual
+	url = ../plugin/developers_manual.git
+[submodule "plugin/book"]
+	path = plugin/book
+	url = ../plugin/book.git
