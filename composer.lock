@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "288928187eb285120decba29d5adb9a8",
+    "hash": "65f4ecf7f30ed60e68b6b830a33b8670",
     "packages": [
         {
             "name": "cascade/book",
@@ -110,6 +110,66 @@
             "time": "2013-12-31 01:51:05"
         },
         {
+            "name": "cascade/git",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/git.git",
+                "reference": "64bb330535c23e5a67f53a50edc0a20e23c0b005"
+            },
+            "require": {
+                "cascade/composer-plugin": "dev-master",
+                "frozen-doe.net/glip": "dev-master"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "git"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "Load version info from Git repositories",
+            "time": "2014-01-04 23:42:36"
+        },
+        {
+            "name": "frozen-doe.net/glip",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@akvarko.frozen-doe.net/glip.git",
+                "reference": "43acd64c8347c256e63bbd80055744108f710189"
+            },
+            "require": {
+                "php": ">=5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Patrik Fimml"
+                },
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "Fork of Git Library In PHP",
+            "time": "2014-01-04 23:34:34"
+        },
+        {
             "name": "michelf/php-markdown",
             "version": "dev-lib",
             "source": {
@@ -170,6 +230,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "cascade/core": 20,
+        "cascade/git": 20,
         "cascade/book": 20,
         "cascade/developers_manual": 20
     },
