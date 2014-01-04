@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0a18c10a204aa4d8705a5e577a457292",
+    "hash": "a19e1580fae444f9cee3e24bdc52ef58",
     "packages": [
         {
             "name": "cascade/book",
@@ -62,10 +62,11 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "d5aaf6e267a0aa58cbaef154d5ae969838096e6e"
+                "reference": "2068ca5fc32f26d2c217f17a4f031004638de738"
             },
             "require": {
-                "cascade/composer-plugin": "dev-master"
+                "cascade/composer-plugin": "dev-master",
+                "php": ">=5.3.3"
             },
             "type": "cascade-core",
             "license": [
@@ -78,7 +79,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-01-04 01:49:40"
+            "time": "2014-01-04 20:32:44"
         },
         {
             "name": "cascade/developers_manual",
