@@ -13,6 +13,7 @@
 	],
 	"require": {
 		"cascade/composer-plugin": "dev-master",
+		"cascade/core": "dev-master",
 		"cascade/book": "dev-master",
 		"cascade/developers_manual": "dev-master"
 	},

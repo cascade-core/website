@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bb52cac1451ffa5092e7b13ced5b0554",
+    "hash": "0a18c10a204aa4d8705a5e577a457292",
     "packages": [
         {
             "name": "cascade/book",
@@ -39,7 +39,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/composer-plugin.git",
-                "reference": "eff56541ee9ab014d3a825bc78d985c054ff8d03"
+                "reference": "49dc65494f3a963e9ad46c571a4b51f8a501fbb4"
             },
             "type": "composer-installer",
             "extra": {
@@ -54,7 +54,31 @@
                 "MIT"
             ],
             "description": "A Composer installer",
-            "time": "2013-12-31 01:13:32"
+            "time": "2014-01-04 01:43:18"
+        },
+        {
+            "name": "cascade/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
+                "reference": "d5aaf6e267a0aa58cbaef154d5ae969838096e6e"
+            },
+            "require": {
+                "cascade/composer-plugin": "dev-master"
+            },
+            "type": "cascade-core",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "Core of the framework",
+            "time": "2014-01-04 01:49:40"
         },
         {
             "name": "cascade/developers_manual",
@@ -145,6 +169,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "cascade/composer-plugin": 20,
+        "cascade/core": 20,
         "cascade/book": 20,
         "cascade/developers_manual": 20
     },
