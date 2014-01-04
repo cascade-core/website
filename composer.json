@@ -1,6 +1,6 @@
 {
 	"name": "cascade/demo",
-	"description": "...",
+	"description": "Demo installation at cascade.frozen-doe.net",
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
@@ -9,9 +9,7 @@
 		}
 	],
 	"repositories": [
-		{ "type": "vcs", "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/book.git" },
-		{ "type": "vcs", "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/developers_manual.git" },
-		{ "type": "vcs", "url": "ssh://git@akvarko.frozen-doe.net/cascade/composer-plugin.git" }
+		{ "type": "composer", "url": "https://akvarko.frozen-doe.net/composer/" }
 	],
 	"require": {
 		"cascade/composer-plugin": "dev-master",
