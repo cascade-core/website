@@ -14,9 +14,14 @@
 	"minimum-stability": "dev",
 	"require": {
 		"cascade/core": "dev-master",
-		"cascade/git": "dev-master",
+		"cascade/admin": "dev-master",
+		"cascade/block_editor": "dev-master",
 		"cascade/book": "dev-master",
-		"cascade/developers_manual": "dev-master"
+		"cascade/developers_manual": "dev-master",
+		"cascade/duf": "dev-master",
+		"cascade/git": "dev-master",
+		"cascade/jsondb": "dev-master",
+		"cascade/smalldb": "dev-master"
 	},
 	"config": {
 		"bin-dir": "bin",

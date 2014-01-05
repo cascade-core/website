@@ -3,8 +3,63 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "65f4ecf7f30ed60e68b6b830a33b8670",
+    "hash": "e8976cafa300ebeeab39e00094b653df",
     "packages": [
+        {
+            "name": "cascade/admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/admin.git",
+                "reference": "94172b3a527b47b94fc562c8038948e0a72b9ee3"
+            },
+            "require": {
+                "cascade/composer-plugin": "dev-master"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "admin"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "Administration infrastructure",
+            "time": "2014-01-04 23:58:39"
+        },
+        {
+            "name": "cascade/block_editor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/block_editor.git",
+                "reference": "d367e94417540057c71bed862e0f2eef49a89496"
+            },
+            "require": {
+                "cascade/admin": "dev-master",
+                "cascade/composer-plugin": "dev-master"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "block_editor"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "Visual block editor",
+            "time": "2014-01-05 00:00:37"
+        },
         {
             "name": "cascade/book",
             "version": "dev-master",
@@ -110,6 +165,33 @@
             "time": "2013-12-31 01:51:05"
         },
         {
+            "name": "cascade/duf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/duf.git",
+                "reference": "6beb96a174dd7366528093aab2539a57dd81bc7a"
+            },
+            "require": {
+                "cascade/composer-plugin": "dev-master"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "duf"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "DUF: Declarative Universal Forms",
+            "time": "2014-01-05 00:01:34"
+        },
+        {
             "name": "cascade/git",
             "version": "dev-master",
             "source": {
@@ -136,6 +218,60 @@
             ],
             "description": "Load version info from Git repositories",
             "time": "2014-01-04 23:42:36"
+        },
+        {
+            "name": "cascade/jsondb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/jsondb.git",
+                "reference": "ad8cbc817eeea233a99042770f4a526fc5679e4c"
+            },
+            "require": {
+                "cascade/composer-plugin": "dev-master"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "jsondb"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "JSON Database browser",
+            "time": "2014-01-05 00:02:53"
+        },
+        {
+            "name": "cascade/smalldb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/smalldb.git",
+                "reference": "f93cf48cccb4772861be67f6e9b41a06585696ec"
+            },
+            "require": {
+                "cascade/composer-plugin": "dev-master"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "smalldb"
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "Smalldb: State machine abstraction layer",
+            "time": "2014-01-05 00:04:29"
         },
         {
             "name": "frozen-doe.net/glip",
@@ -230,9 +366,14 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "cascade/core": 20,
-        "cascade/git": 20,
+        "cascade/admin": 20,
+        "cascade/block_editor": 20,
         "cascade/book": 20,
-        "cascade/developers_manual": 20
+        "cascade/developers_manual": 20,
+        "cascade/duf": 20,
+        "cascade/git": 20,
+        "cascade/jsondb": 20,
+        "cascade/smalldb": 20
     },
     "platform": [
 
