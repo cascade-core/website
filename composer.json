@@ -12,6 +12,7 @@
 		{ "type": "composer", "url": "https://akvarko.frozen-doe.net/composer/" }
 	],
 	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"require": {
 		"cascade/core": "dev-master",
 		"cascade/admin": "dev-master",
