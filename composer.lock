@@ -94,14 +94,14 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/composer-plugin.git",
-                "reference": "49dc65494f3a963e9ad46c571a4b51f8a501fbb4"
+                "reference": "cdf68116d835b9e67ae5fb972549de9df7513c3c"
             },
             "type": "composer-installer",
             "extra": {
                 "class": "Cascade\\ComposerPlugin\\Installer"
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Cascade\\ComposerPlugin\\": "src/"
                 }
             },
@@ -109,7 +109,7 @@
                 "MIT"
             ],
             "description": "A Composer installer",
-            "time": "2014-01-04 01:43:18"
+            "time": "2014-01-05 01:10:08"
         },
         {
             "name": "cascade/core",
