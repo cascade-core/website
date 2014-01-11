@@ -11,7 +11,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/admin.git",
-                "reference": "94172b3a527b47b94fc562c8038948e0a72b9ee3"
+                "reference": "7df313603d9067cbcb728cdaa0941bc2c7265fe6"
             },
             "require": {
                 "cascade/composer-plugin": "dev-master"
@@ -30,7 +30,7 @@
                 }
             ],
             "description": "Administration infrastructure",
-            "time": "2014-01-04 23:58:39"
+            "time": "2014-01-11 12:44:00"
         },
         {
             "name": "cascade/block_editor",
@@ -117,7 +117,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "2068ca5fc32f26d2c217f17a4f031004638de738"
+                "reference": "8aa3b3195f9a86d432b25f2878f82fddf36425e4"
             },
             "require": {
                 "cascade/composer-plugin": "dev-master",
@@ -134,7 +134,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-01-04 20:32:44"
+            "time": "2014-01-11 12:36:06"
         },
         {
             "name": "cascade/developers_manual",
