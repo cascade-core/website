@@ -1,7 +1,7 @@
 {
 	"name": "cascade/site",
 	"description": "Demo installation at cascade.frozen-doe.net",
-	"license": "BSD-3-Clause",
+	"license": "Apache-2.0",
 	"authors": [
 		{
 			"name": "Josef Kufner",
