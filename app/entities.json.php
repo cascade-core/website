@@ -7,7 +7,7 @@
 		"item": {
 			"description": "Simple CRUD entity.",
 			"state_machine": {
-				"class": "\\SmallDb\\StateMachine\\ArrayMachine",
+				"class": "\\Smalldb\\StateMachine\\ArrayMachine",
 				"states": {
 					"exists": {
 						"description": "Some general item"
@@ -77,7 +77,7 @@
 		"article": {
 			"description": "Article which can be published or rejected.",
 			"state_machine": {
-				"class": "\\SmallDb\\StateMachine\\ArrayMachine",
+				"class": "\\Smalldb\\StateMachine\\ArrayMachine",
 				"states": {
 					"writing": {
 						"description": ""
