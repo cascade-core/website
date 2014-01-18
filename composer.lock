@@ -117,7 +117,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "ecd98cc8bf2db1e51e2de4391662e77875bcd2f6"
+                "reference": "d029d9f9a9d7ffa3048920308d37f002ebd2f6a6"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -126,7 +126,7 @@
             "type": "cascade-core",
             "autoload": {
                 "psr-4": {
-                    "Cascade\\Core\\": "class/"
+                    "Cascade\\Core\\": "app/class/"
                 }
             },
             "license": [
@@ -139,7 +139,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-01-18 00:09:18"
+            "time": "2014-01-18 21:20:11"
         },
         {
             "name": "cascade/developers_manual",
@@ -267,7 +267,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/smalldb.git",
-                "reference": "dc3dc1689f7d1d0546d16a331146af3c2a777fcd"
+                "reference": "5188137238f5ba4322899a692cf07ec0add2aa68"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1"
@@ -291,7 +291,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-01-18 00:14:05"
+            "time": "2014-01-18 19:31:44"
         },
         {
             "name": "frozen-doe.net/glip",
