@@ -11,7 +11,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/admin.git",
-                "reference": "4389860bdcd71941073e9cd7cba4916943099b0c"
+                "reference": "51a9a34fa0061e6375c1b9f2647020d2b9696e43"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1"
@@ -30,7 +30,7 @@
                 }
             ],
             "description": "Administration infrastructure",
-            "time": "2014-01-16 22:33:00"
+            "time": "2014-01-18 00:12:54"
         },
         {
             "name": "cascade/block_editor",
@@ -38,7 +38,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/block_editor.git",
-                "reference": "62aa78708ec49f43ee37b437a0c1530b55ff9962"
+                "reference": "d3a2836f1ddc0f65a2f69dd741b964cc5405547c"
             },
             "require": {
                 "cascade/admin": "dev-master",
@@ -58,7 +58,7 @@
                 }
             ],
             "description": "Visual block editor",
-            "time": "2014-01-16 22:33:52"
+            "time": "2014-01-18 00:13:00"
         },
         {
             "name": "cascade/book",
@@ -117,7 +117,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "cc5aabf2d681a2e586a6978a39ea05a65ab6348f"
+                "reference": "ecd98cc8bf2db1e51e2de4391662e77875bcd2f6"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -139,7 +139,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-01-16 22:48:36"
+            "time": "2014-01-18 00:09:18"
         },
         {
             "name": "cascade/developers_manual",
@@ -175,7 +175,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/duf.git",
-                "reference": "5178a366099d3992ea35cb4155b17ba029d60076"
+                "reference": "0ed3aaf1eeae6faf14e9048fabcd40359f2011d5"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1"
@@ -199,7 +199,7 @@
                 }
             ],
             "description": "DUF: Declarative Universal Forms",
-            "time": "2014-01-16 22:36:07"
+            "time": "2014-01-18 00:13:34"
         },
         {
             "name": "cascade/git",
@@ -207,7 +207,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/git.git",
-                "reference": "776d2ebf9ebd549a0dce6fb57e41b60ddb83dbc2"
+                "reference": "9a7a0ea7ee0bef0e383025609aeb16b95d13f3e0"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -227,7 +227,7 @@
                 }
             ],
             "description": "Load version info from Git repositories",
-            "time": "2014-01-16 22:38:52"
+            "time": "2014-01-18 00:13:43"
         },
         {
             "name": "cascade/jsondb",
@@ -235,7 +235,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/jsondb.git",
-                "reference": "e7845a0d53f05f815cb0459b50f86a897c89ba23"
+                "reference": "4ae291276974261cc75c73597f1c0d4083cc6f39"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1"
@@ -259,7 +259,7 @@
                 }
             ],
             "description": "JSON Database browser",
-            "time": "2014-01-16 22:47:03"
+            "time": "2014-01-18 00:13:54"
         },
         {
             "name": "cascade/smalldb",
@@ -267,7 +267,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/smalldb.git",
-                "reference": "619eeeff111e2c6d87af4a55a4c75b2df67b5545"
+                "reference": "dc3dc1689f7d1d0546d16a331146af3c2a777fcd"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1"
@@ -291,7 +291,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-01-16 22:48:03"
+            "time": "2014-01-18 00:14:05"
         },
         {
             "name": "frozen-doe.net/glip",
