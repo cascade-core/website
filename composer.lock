@@ -117,7 +117,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "d029d9f9a9d7ffa3048920308d37f002ebd2f6a6"
+                "reference": "2f456a42b0cd77598b488b28efae64027191f05a"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -139,7 +139,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-01-18 21:20:11"
+            "time": "2014-01-19 00:42:52"
         },
         {
             "name": "cascade/developers_manual",
@@ -267,7 +267,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/smalldb.git",
-                "reference": "5188137238f5ba4322899a692cf07ec0add2aa68"
+                "reference": "dba6b0fb34c9e940baf4f848b35ada5028146d75"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1"
@@ -291,7 +291,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-01-18 19:31:44"
+            "time": "2014-01-19 00:43:30"
         },
         {
             "name": "frozen-doe.net/glip",
