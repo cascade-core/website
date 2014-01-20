@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /core/
+Disallow: /plugin/
+Disallow: /app/
+Disallow: /data/
+Disallow: /lib/
+Disallow: /var/
+
