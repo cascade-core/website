@@ -117,7 +117,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "84d91d02a02090e0d4ca50312ec6f02f5ebc6bb7"
+                "reference": "d30d500aa4bc6ed81fd0797bf84816e9ff58be9c"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -139,7 +139,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-01-22 12:02:38"
+            "time": "2014-01-22 13:26:54"
         },
         {
             "name": "cascade/developers_manual",
