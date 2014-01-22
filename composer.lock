@@ -38,7 +38,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/block_editor.git",
-                "reference": "b3421e2922fa6f75da52e53c2ce4f0b3e5f7366f"
+                "reference": "2b7cc83aa09d1f84bd0672f59f5b82c31a2b7041"
             },
             "require": {
                 "cascade/admin": "dev-master",
@@ -58,7 +58,7 @@
                 }
             ],
             "description": "Visual block editor",
-            "time": "2014-01-22 00:48:35"
+            "time": "2014-01-22 11:51:24"
         },
         {
             "name": "cascade/book",
@@ -117,7 +117,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "8f3a13ea8dc365d8b69b97582ba1cc0fd048571c"
+                "reference": "84d91d02a02090e0d4ca50312ec6f02f5ebc6bb7"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -139,7 +139,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-01-22 00:45:32"
+            "time": "2014-01-22 12:02:38"
         },
         {
             "name": "cascade/developers_manual",
