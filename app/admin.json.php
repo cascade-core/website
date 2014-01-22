@@ -8,12 +8,7 @@
                     "link": "/admin/doc/doxygen"
                 }
             }
-        },
-        "exit": {
-            "title": "Exit administration",
-            "link": "/",
-            "weight": 90
-        }
+	}
     },
     "common_block": "admin_extras",
     "routes": {
