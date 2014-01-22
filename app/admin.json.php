@@ -15,6 +15,7 @@
             "weight": 90
         }
     },
+    "common_block": "admin_extras",
     "routes": {
         "/doc/doxygen": {
             "title": "Doxygen documentation",

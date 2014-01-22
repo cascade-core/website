@@ -11,7 +11,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/admin.git",
-                "reference": "9c685e904863cb64c0cf75756854df2071a5124f"
+                "reference": "68f95ea92e02f81e4d68706903823fdb3aa79e77"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1"
@@ -30,7 +30,7 @@
                 }
             ],
             "description": "Administration infrastructure",
-            "time": "2014-01-22 00:48:32"
+            "time": "2014-01-22 13:58:46"
         },
         {
             "name": "cascade/block_editor",

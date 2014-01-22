@@ -61,7 +61,7 @@
             }
         },
         "skeleton": {
-            "block": "page/skeleton",
+            "block": "skeleton",
             "in_con": {
                 "enable": [
                     ":and",
