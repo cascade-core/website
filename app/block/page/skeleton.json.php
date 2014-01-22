@@ -104,9 +104,9 @@
                 ]
             },
             "in_val": {
-                "data": "<!-- html head -->\n<link rel='stylesheet' href='/core/style/basic.css' type='text/css'>\n<link rel='stylesheet' href='/app/style/main.css' type='text/css'>\n\n<script type=text/javascript>\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-22907817-2']);\n  _gaq.push(['_trackPageview']);\n  (function() {\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n</script>",
                 "slot": "html_head",
-                "slot_weight": 20
+                "slot_weight": 20,
+                "data": "<!-- html head -->\n<link rel='stylesheet' href='/core/style/basic.css' type='text/css'>\n<link rel='stylesheet' href='/app/style/main.css' type='text/css'>\n\n<script type=text/javascript>\n  var _gaq = _gaq || [];\n  _gaq.push(['_setAccount', 'UA-22907817-2']);\n  _gaq.push(['_trackPageview']);\n  (function() {\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\n  })();\n</script>"
             }
         },
         "site_header": {
@@ -141,7 +141,7 @@
             "x": 514,
             "y": 700,
             "in_val": {
-                "link": "/git",
+                "link": "/admin/devel/version",
                 "slot_weight": 60
             },
             "in_con": {
