@@ -62,38 +62,56 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .message {
-	margin: 1em 20%;
+	margin: 2em 20%;
 	border: 1px solid #000;
 	background: #eee;
 	text-align: center;
 }
 	.message h2 {
-		font-size: 1.2em;
-		margin: 0.6em 2em;
+		font-size: 1.25em;
+		margin: 0.8em 1.6em;
 		padding: 0em;
 		color: inherit;
-		text-shadow: none;
+		text-shadow: inherit;
 	}
 
 	.message p {
-		margin: 0.6em 2em;
+		margin: 1em 2em;
+		color: inherit;
+		text-shadow: inherit;
 	}
 
 	.message_error {
-		border-top: 1px solid #c60;
-		border-left: 1px solid #c60;
-		border-bottom: 1px solid #820;
-		border-right: 1px solid #820;
-		background: #fed bottom center repeat-x url(images/error-bg.png);
+		background: #fca;		/* base color */
+		color: #420;
+		box-shadow: 2px 2px 3px rgba(0,0,0,0.2), inset 0em 0em 3em #fb8;
+		text-shadow: 0px 0px 2px #fff;
+		border-top: 1px solid #c40;
+		border-left: 1px solid #c40;
+		border-bottom: 1px solid #830;	/* swap saturation and value */
+		border-right: 1px solid #830;
 	}
 
 	.message_success {
-		border-top: 1px solid #4a0;
-		border-left: 1px solid #4a0;
-		border-bottom: 1px solid #260;
-		border-right: 1px solid #260;
-		background: #efd bottom center repeat-x url(images/success-bg.png);
-		color: #140;
+		background: #cfa;		/* base color */
+		color: #240;
+		box-shadow: 2px 2px 3px rgba(0,0,0,0.2), inset 0em 0em 3em #bf8;
+		text-shadow: 0px 0px 2px #fff;
+		border-top: 1px solid #4c0;
+		border-left: 1px solid #4c0;
+		border-bottom: 1px solid #380;	/* swap saturation and value */
+		border-right: 1px solid #380;
+	}
+
+	.message_info {
+		background: #acf;		/* base color */
+		color: #024;
+		box-shadow: 2px 2px 3px rgba(0,0,0,0.2), inset 0em 0em 3em #8bf;
+		text-shadow: 0px 0px 2px #fff;
+		border-top: 1px solid #04c;
+		border-left: 1px solid #04c;
+		border-bottom: 1px solid #038;	/* swap saturation and value */
+		border-right: 1px solid #038;
 	}
 
 form {
