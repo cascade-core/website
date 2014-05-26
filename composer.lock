@@ -11,10 +11,11 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/admin.git",
-                "reference": "8e43bf05abe0040b9aa190b087fb21ed2e0c5c53"
+                "reference": "55c3b73e858ed9c925737df7e8790dea3fba10a4"
             },
             "require": {
-                "cascade/composer-plugin": ">=1.1"
+                "cascade/composer-plugin": ">=1.1",
+                "cascade/core": ">=0.11"
             },
             "type": "cascade-plugin",
             "extra": {
@@ -30,7 +31,7 @@
                 }
             ],
             "description": "Administration infrastructure",
-            "time": "2014-01-22 14:06:25"
+            "time": "2014-05-19 12:24:38"
         },
         {
             "name": "cascade/block_editor",
@@ -38,7 +39,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/block_editor.git",
-                "reference": "e672d0b2849fddbc36b517abb568709fd9997fc2"
+                "reference": "2a6c71f03b3288f17453613c0cc1776578d351f7"
             },
             "require": {
                 "cascade/admin": "dev-master",
@@ -58,7 +59,7 @@
                 }
             ],
             "description": "Visual block editor",
-            "time": "2014-01-29 23:27:35"
+            "time": "2014-05-26 20:26:33"
         },
         {
             "name": "cascade/book",
@@ -117,7 +118,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "254a6f35580893f5504fb59e3e9ece75fd547a26"
+                "reference": "d2ca446c39e104851f62200cb7ea1101dbede795"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -139,7 +140,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-04-27 08:43:20"
+            "time": "2014-05-26 11:16:52"
         },
         {
             "name": "cascade/developers_manual",
@@ -175,10 +176,11 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/duf.git",
-                "reference": "eea0e450f2e5bc40947127bae0c5a181a5edcc84"
+                "reference": "3dd807fa23f2a25ac15cc82858d267adc18a0e90"
             },
             "require": {
-                "cascade/composer-plugin": ">=1.1"
+                "cascade/composer-plugin": ">=1.1",
+                "cascade/core": ">=0.11"
             },
             "type": "cascade-plugin",
             "extra": {
@@ -199,7 +201,7 @@
                 }
             ],
             "description": "DUF: Declarative Universal Forms",
-            "time": "2014-01-22 00:48:41"
+            "time": "2014-05-26 09:27:35"
         },
         {
             "name": "cascade/git",
@@ -267,10 +269,11 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/smalldb.git",
-                "reference": "8cb8f649d47c07dfe9fa5e99272f41ce77f7ce41"
+                "reference": "6b90b5658d2b0876e72a304781dc8cc8e6af70e2"
             },
             "require": {
-                "cascade/composer-plugin": ">=1.1"
+                "cascade/composer-plugin": ">=1.1",
+                "cascade/core": ">=0.11"
             },
             "type": "cascade-plugin",
             "extra": {
@@ -291,7 +294,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-02-11 12:22:49"
+            "time": "2014-05-26 09:28:25"
         },
         {
             "name": "frozen-doe.net/glip",
@@ -327,16 +330,16 @@
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "96d8150406f67e683ef4acc09fef91785fef1266"
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/96d8150406f67e683ef4acc09fef91785fef1266",
-                "reference": "96d8150406f67e683ef4acc09fef91785fef1266",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
                 "shasum": ""
             },
             "require": {
@@ -374,7 +377,7 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2013-11-29 17:09:24"
+            "time": "2014-05-05 02:43:50"
         }
     ],
     "packages-dev": [

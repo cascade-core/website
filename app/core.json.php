@@ -1,28 +1,26 @@
 {
     "_": "<?php printf('_%c%c}%c',34,10,10);__halt_compiler();?>",
     "core": {
-        "default_locale": "en_GB"
+    },
+    "context": {
+        "default_locale": "en_GB",
+        "resources": {
+            "smalldb": {
+                "class": "Smalldb\\StateMachine\\JsonDirBackend",
+                "base_dir": "{DIR_APP}statemachine/"
+            }
+        }
     },
     "block_storage": {
         "smalldb": {
             "storage_class": "Smalldb\\Cascade\\BlockStorage",
             "storage_weight": 20,
-            "alias": "smalldb",
-            "backend_class": "Smalldb\\StateMachine\\SimpleBackend"
+            "backend_resource": "smalldb"
         }
     },
     "blocks": {
         "config": {
             "block": "core/config"
-        },
-        "smalldb": {
-            "block": "smalldb/init",
-            "in_con": {
-                "config": [
-                    "config",
-                    "entities.entities"
-                ]
-            }
         },
         "router": {
             "block": "core/router",
@@ -49,10 +47,7 @@
                     "connections"
                 ],
                 "enable": [
-                    ":and",
                     "router",
-                    "done",
-                    "smalldb",
                     "done"
                 ]
             },
