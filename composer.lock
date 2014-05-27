@@ -39,7 +39,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/block_editor.git",
-                "reference": "2a6c71f03b3288f17453613c0cc1776578d351f7"
+                "reference": "2c78af4b8d360182e3a69583cb2ffcc0273d01ea"
             },
             "require": {
                 "cascade/admin": "dev-master",
@@ -59,7 +59,7 @@
                 }
             ],
             "description": "Visual block editor",
-            "time": "2014-05-26 20:26:33"
+            "time": "2014-05-27 17:23:05"
         },
         {
             "name": "cascade/book",
@@ -118,7 +118,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/core.git",
-                "reference": "d2ca446c39e104851f62200cb7ea1101dbede795"
+                "reference": "eed7c52dab041c1653dd5c4b70945ccb5711c229"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -140,7 +140,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-05-26 11:16:52"
+            "time": "2014-05-28 02:29:16"
         },
         {
             "name": "cascade/developers_manual",
@@ -269,7 +269,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/smalldb.git",
-                "reference": "6b90b5658d2b0876e72a304781dc8cc8e6af70e2"
+                "reference": "0d633fc7235644bedaeb691a33e34c07eb33ed91"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -294,7 +294,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-05-26 09:28:25"
+            "time": "2014-05-28 00:58:17"
         },
         {
             "name": "frozen-doe.net/glip",
