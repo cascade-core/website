@@ -5,24 +5,24 @@
   <key for="port" id="d1" yfiles.type="portgraphics"/>
   <key for="port" id="d2" yfiles.type="portgeometry"/>
   <key for="port" id="d3" yfiles.type="portuserdata"/>
-  <key attr.name="state" attr.type="string" for="node" id="d4">
+  <key attr.name="State" attr.type="string" for="node" id="d4">
     <default/>
   </key>
   <key attr.name="url" attr.type="string" for="node" id="d5"/>
   <key attr.name="description" attr.type="string" for="node" id="d6"/>
   <key for="node" id="d7" yfiles.type="nodegraphics"/>
-  <key attr.name="description" attr.type="string" for="graph" id="d8">
+  <key attr.name="Description" attr.type="string" for="graph" id="d8">
     <default/>
   </key>
-  <key attr.name="class" attr.type="string" for="graph" id="d9">
+  <key attr.name="Class" attr.type="string" for="graph" id="d9">
     <default/>
   </key>
-  <key attr.name="properties" for="graph" id="d10">
+  <key attr.name="Properties" for="graph" id="d10">
     <default>
       <!--  <property name="..." type="..."/>  -->
     </default>
   </key>
-  <key attr.name="action" attr.type="string" for="edge" id="d11">
+  <key attr.name="Action" attr.type="string" for="edge" id="d11">
     <default/>
   </key>
   <key attr.name="url" attr.type="string" for="edge" id="d12"/>
@@ -32,11 +32,13 @@
     <data key="d8"><![CDATA[Article designed in yEd]]></data>
     <data key="d9"><![CDATA[\Smalldb\StateMachine\ArrayMachine]]></data>
     <data key="d10">
-      <property xmlns="" name="id" type="text"/>
+<property xmlns="" name="id" type="text"/>
 <property xmlns="" name="title" type="text"/>
 <property xmlns="" name="body" type="markdown"/>
 <property xmlns="" name="author" type="user"/>
 <property xmlns="" name="published" type="timestamp"/>
+<property xmlns="" name="created" type="timestamp"/>
+<property xmlns="" name="modified" type="timestamp"/>
 </data>
     <node id="n0">
       <data key="d7">
@@ -76,7 +78,7 @@
       <data key="d5"/>
       <data key="d7">
         <y:ShapeNode>
-          <y:Geometry height="30.0" width="120.0" x="177.46972656249997" y="164.08333333333334"/>
+          <y:Geometry height="30.0" width="120.0" x="177.46972656249997" y="174.75000000000017"/>
           <y:Fill color="#EEEEEE" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="66.2734375" x="26.86328125" y="6.015625">Submitted<y:LabelModel>
@@ -171,7 +173,7 @@
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="45.203125" x="7.398437499999972" y="5.0">submit<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="45.203125" x="7.398437499999943" y="5.0">submit<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -189,7 +191,7 @@
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="44.25390625" x="-5.658843037445223" y="30.79749552408856">accept<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="44.25390625" x="-4.527345594486121" y="25.480758666992273">accept<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -204,10 +206,13 @@
     <edge id="e3" source="n3" target="n5">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="8.526512829121202E-14" ty="0.0">
+            <y:Point x="161.92824184634281" y="288.5"/>
+            <y:Point x="161.92824184634281" y="355.5"/>
+          </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="47.365234375" x="6.317382812500028" y="9.515625">publish<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="47.365234375" x="6.317386743803752" y="11.85498046875">publish<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -223,13 +228,13 @@
       <data key="d14">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="153.46972656249997" y="179.08333333333334"/>
-            <y:Point x="153.46972656249997" y="143.5"/>
-            <y:Point x="192.46972656249997" y="143.5"/>
+            <y:Point x="153.46972656249997" y="189.75000000000017"/>
+            <y:Point x="153.46972656249997" y="154.16666666666683"/>
+            <y:Point x="192.46972656249997" y="154.16666666666683"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="27.0390625" x="-67.51953125000003" y="-26.776036580403627">edit<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="27.0390625" x="-67.51953125000003" y="-26.776041666666515">edit<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -250,7 +255,7 @@
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="59.177734375" x="22.411132812499943" y="-44.276036580403655">withdraw<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="59.177734375" x="29.185211181640568" y="-48.019017537434905">withdraw<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -273,7 +278,7 @@
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="right" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="41.166015625" x="128.60342407226557" y="-61.53351338704428">return<y:LabelModel>
+          <y:EdgeLabel alignment="right" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="41.166015625" x="117.37036132812494" y="-66.61400349934897">return<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -288,13 +293,13 @@
     <edge id="e7" source="n2" target="n4">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+          <y:Path sx="0.0" sy="0.0" tx="-5.6843418860808015E-14" ty="0.0">
             <y:Point x="324.9697265625" y="227.75000000000017"/>
             <y:Point x="387.46972656249994" y="227.75000000000017"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="38.3359375" x="135.18204393466738" y="71.86568496784292">reject<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="38.3359375" x="129.84659471591738" y="61.880577545967924">reject<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -331,14 +336,14 @@
     <edge id="e9" source="n5" target="n2">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+          <y:Path sx="8.526512829121202E-14" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="91.96972656250001" y="355.5"/>
             <y:Point x="91.96972656250001" y="209.75000000000017"/>
             <y:Point x="199.96972656250003" y="209.75000000000017"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="29.939453125" x="-86.9697265625" y="-81.85937499999994">hide<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="29.939453125" x="-86.955078125" y="-81.85937499999994">hide<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -353,13 +358,13 @@
     <edge id="e10" source="n2" target="n5">
       <data key="d14">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+          <y:Path sx="0.0" sy="0.0" tx="8.526512829121202E-14" ty="0.0">
             <y:Point x="290.9697265625" y="239.75000000000017"/>
             <y:Point x="290.9697265625" y="326.75000000000017"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="44.25390625" x="48.45524597167969" y="80.53405761718767">accept<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="44.25390625" x="45.868194580078125" y="70.02511596679705">accept<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
