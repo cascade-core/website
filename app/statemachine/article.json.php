@@ -3,7 +3,10 @@
     "description": "Article.",
     "class": "\\Smalldb\\StateMachine\\ArrayMachine",
     "states": {
-        "writing": {
+        "published": {
+            "description": ""
+        },
+        "rejected": {
             "description": ""
         },
         "submitted": {
@@ -12,14 +15,21 @@
         "waiting": {
             "description": ""
         },
-        "published": {
-            "description": ""
-        },
-        "rejected": {
+        "writing": {
             "description": ""
         }
     },
     "actions": {
+        "accept": {
+            "transitions": {
+                "submitted": {
+                    "targets": [
+                        "waiting",
+                        "published"
+                    ]
+                }
+            }
+        },
         "create": {
             "returns": "new_id",
             "transitions": {
@@ -53,15 +63,6 @@
                 }
             }
         },
-        "withdraw": {
-            "transitions": {
-                "submitted": {
-                    "targets": [
-                        "writing"
-                    ]
-                }
-            }
-        },
         "return": {
             "transitions": {
                 "submitted": {
@@ -71,12 +72,11 @@
                 }
             }
         },
-        "accept": {
+        "withdraw": {
             "transitions": {
                 "submitted": {
                     "targets": [
-                        "waiting",
-                        "published"
+                        "writing"
                     ]
                 }
             }

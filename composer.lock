@@ -1,7 +1,8 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
     "hash": "4a04334b3dd6d78434c1a63b74736f62",
     "packages": [
@@ -269,7 +270,7 @@
             "source": {
                 "type": "git",
                 "url": "ssh://git@akvarko.frozen-doe.net/cascade/plugin/smalldb.git",
-                "reference": "0d633fc7235644bedaeb691a33e34c07eb33ed91"
+                "reference": "e0e7833184b3a1ba8027639648c0c40621d40e3e"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -294,7 +295,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-05-28 00:58:17"
+            "time": "2014-06-04 00:52:07"
         },
         {
             "name": "frozen-doe.net/glip",
