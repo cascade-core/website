@@ -3,25 +3,25 @@
 	url = ../core.git
 [submodule "plugin/git"]
 	path = plugin/git
-	url = ../plugin/git.git
+	url = ../git.git
 [submodule "plugin/block_editor"]
 	path = plugin/block_editor
-	url = ../plugin/block_editor.git
+	url = ../block-editor.git
 [submodule "plugin/admin"]
 	path = plugin/admin
-	url = ../plugin/admin.git
+	url = ../administration.git
 [submodule "plugin/jsondb"]
 	path = plugin/jsondb
-	url = ../plugin/jsondb.git
+	url = ../jsondb.git
 [submodule "plugin/smalldb"]
 	path = plugin/smalldb
-	url = ../plugin/smalldb.git
+	url = ../.git
 [submodule "plugin/duf"]
 	path = plugin/duf
-	url = ../plugin/duf.git
+	url = ../duf.git
 [submodule "plugin/developers_manual"]
 	path = plugin/developers_manual
-	url = ../plugin/developers_manual.git
+	url = ../developers-manual.git
 [submodule "plugin/book"]
 	path = plugin/book
-	url = ../plugin/book.git
+	url = ../book.git
