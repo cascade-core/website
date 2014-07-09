@@ -15,7 +15,9 @@
         "smalldb": {
             "storage_class": "Smalldb\\Cascade\\BlockStorage",
             "storage_weight": 20,
-            "backend_resource": "smalldb"
+            "_resources": {
+                "backend": "smalldb"
+            }
         }
     },
     "blocks": {
