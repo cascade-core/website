@@ -40,7 +40,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/block-editor.git",
-                "reference": "2c78af4b8d360182e3a69583cb2ffcc0273d01ea"
+                "reference": "687d1f61104fa429fbb0d5d16f28b97d4163ee8c"
             },
             "require": {
                 "cascade/admin": "dev-master",
@@ -60,7 +60,7 @@
                 }
             ],
             "description": "Visual block editor",
-            "time": "2014-05-27 17:23:05"
+            "time": "2014-07-25 10:21:17"
         },
         {
             "name": "cascade/book",
@@ -119,7 +119,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/core.git",
-                "reference": "828057e6a33075891d4a2a44abdfa1b7ddadc099"
+                "reference": "d2f10193f20decb7d7cc36e050f00aad690fb798"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -144,7 +144,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-06-28 18:57:20"
+            "time": "2014-09-09 06:54:31"
         },
         {
             "name": "cascade/developers_manual",
@@ -180,11 +180,14 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/duf.git",
-                "reference": "420af7bf509d1cb4a2559516fb0b5714cd9cbbde"
+                "reference": "2b60bed839c18fd80996029c29d44c2f6ce4695f"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
                 "cascade/core": ">=0.11"
+            },
+            "suggest": {
+                "cascade/smalldb": "Generate field groups from state machine definition."
             },
             "type": "cascade-plugin",
             "extra": {
@@ -205,7 +208,7 @@
                 }
             ],
             "description": "DUF: Declarative Universal Forms",
-            "time": "2014-07-02 01:58:28"
+            "time": "2014-09-05 03:09:56"
         },
         {
             "name": "cascade/git",
@@ -273,11 +276,12 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/smalldb.git",
-                "reference": "9b83f81e51b4a6164e7eddb38acdf3eae34bc818"
+                "reference": "43042e56183bcc15b6b898d16af787ac2abf775d"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
-                "cascade/core": ">=0.11"
+                "cascade/core": ">=0.11",
+                "php": ">=5.4"
             },
             "type": "cascade-plugin",
             "extra": {
@@ -298,7 +302,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-06-27 14:13:55"
+            "time": "2014-09-09 07:00:56"
         },
         {
             "name": "frozen-doe.net/glip",
@@ -384,12 +388,8 @@
             "time": "2014-05-05 02:43:50"
         }
     ],
-    "packages-dev": [
-
-    ],
-    "aliases": [
-
-    ],
+    "packages-dev": [],
+    "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
         "cascade/core": 20,
@@ -402,10 +402,7 @@
         "cascade/jsondb": 20,
         "cascade/smalldb": 20
     },
-    "platform": [
-
-    ],
-    "platform-dev": [
-
-    ]
+    "prefer-stable": true,
+    "platform": [],
+    "platform-dev": []
 }
