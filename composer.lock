@@ -91,7 +91,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/core.git",
-                "reference": "1af41e0cb02f7331a5b54c5a44a5a7b16d714185"
+                "reference": "0f9fb08ef61e914a78d25ed44a6225bcb6fca3c9"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -116,7 +116,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-10-02 10:01:14"
+            "time": "2014-10-02 11:21:13"
         },
         {
             "name": "cascade/duf",
@@ -222,7 +222,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/smalldb.git",
-                "reference": "888c3d8603bf57fe20034b51ff887658755838ae"
+                "reference": "bee3c30a56fa16f4ba3460b0be58836c5e20b893"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -248,7 +248,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-09-28 20:40:20"
+            "time": "2014-10-02 11:13:21"
         },
         {
             "name": "frozen-doe.net/glip",
