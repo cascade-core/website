@@ -27,6 +27,15 @@ if ($_SERVER['REMOTE_ADDR'] != $_SERVER['SERVER_ADDR']
 
 header('Content-Type: text/plain; encoding=utf-8');
 
+while (ob_get_level()) {
+	ob_end_flush();
+}
+
+echo "Deploy:\n\n";
+
+$f = fopen(__FILE__, "r");
+flock($f, LOCK_EX);
+
 // Make sure we have $HOME
 $info = posix_getpwuid(posix_geteuid());
 putenv("HOME=".$info['dir']);
@@ -35,6 +44,9 @@ putenv("HOME=".$info['dir']);
 passthru("( git fetch -v origin master --tags && echo && git checkout origin/master --force && echo && composer install && echo && make doc ) 2>&1", $retval);
 
 if ($retval == 0) {
-	echo "\n\n# Success.";	
+	echo "\n\n# Success.";
 }
+
+flock($f, LOCK_UN);
+fclose($f);
 
