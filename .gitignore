@@ -2,6 +2,10 @@ data
 data/*
 var
 var/*
+core
+core/*
 lib
 lib/*
+plugin
+plugin/*
 *.local.json.php

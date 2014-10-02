@@ -4,14 +4,14 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4a04334b3dd6d78434c1a63b74736f62",
+    "hash": "cb800956f07f099b0f2956895e7f8469",
     "packages": [
         {
             "name": "cascade/admin",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@git.frozen-doe.net:cascade/admin.git",
+                "url": "git@git.frozen-doe.net:cascade/administration.git",
                 "reference": "55c3b73e858ed9c925737df7e8790dea3fba10a4"
             },
             "require": {
@@ -63,34 +63,6 @@
             "time": "2014-07-25 10:21:17"
         },
         {
-            "name": "cascade/book",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@git.frozen-doe.net:cascade/book.git",
-                "reference": "1ab8725bdf15cf43cb083b8dc2405ef6737d3adc"
-            },
-            "require": {
-                "cascade/composer-plugin": ">=1.1",
-                "michelf/php-markdown": ">=1.4.0"
-            },
-            "type": "cascade-plugin",
-            "extra": {
-                "plugin": "book"
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Josef Kufner",
-                    "email": "jk@frozen-doe.net"
-                }
-            ],
-            "description": "...",
-            "time": "2014-01-22 00:48:37"
-        },
-        {
             "name": "cascade/composer-plugin",
             "version": "v1.1",
             "source": {
@@ -119,7 +91,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/core.git",
-                "reference": "dc090aa25a7626f18aecf1fcd2aff5a2df713bd6"
+                "reference": "1af41e0cb02f7331a5b54c5a44a5a7b16d714185"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -144,35 +116,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-09-09 19:13:26"
-        },
-        {
-            "name": "cascade/developers_manual",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@git.frozen-doe.net:cascade/developers-manual.git",
-                "reference": "6c57ea492b6dab6e12cc083fb5119de4ff556648"
-            },
-            "require": {
-                "cascade/book": "dev-master",
-                "cascade/composer-plugin": ">=1.1"
-            },
-            "type": "cascade-plugin",
-            "extra": {
-                "plugin": "developers_manual"
-            },
-            "license": [
-                "CC BY-SA"
-            ],
-            "authors": [
-                {
-                    "name": "Josef Kufner",
-                    "email": "jk@frozen-doe.net"
-                }
-            ],
-            "description": "Book: Developer's manual",
-            "time": "2014-01-22 00:48:39"
+            "time": "2014-10-02 10:01:14"
         },
         {
             "name": "cascade/duf",
@@ -180,7 +124,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/duf.git",
-                "reference": "2b60bed839c18fd80996029c29d44c2f6ce4695f"
+                "reference": "c1fdf50f513a48a0d45f28020f786180d17e69ad"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -208,7 +152,41 @@
                 }
             ],
             "description": "DUF: Declarative Universal Forms",
-            "time": "2014-09-05 03:09:56"
+            "time": "2014-09-09 22:25:42"
+        },
+        {
+            "name": "cascade/duf_editor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.frozen-doe.net:cascade/duf-editor.git",
+                "reference": "90dcdb17994301070e2b528f1f8b466708ca3490"
+            },
+            "require": {
+                "cascade/composer-plugin": ">=1.1",
+                "cascade/core": ">=0.11",
+                "cascade/duf": "*"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "duf_editor"
+            },
+            "autoload": {
+                "psr-4": {
+                    "DufEditor\\": "class/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Petr Rubeš",
+                    "email": "rubespet@fel.cvut.cz"
+                }
+            ],
+            "description": "Visual editor for Declarative Universal Forms",
+            "time": "2014-10-02 09:00:52"
         },
         {
             "name": "cascade/git",
@@ -239,44 +217,12 @@
             "time": "2014-01-22 00:48:43"
         },
         {
-            "name": "cascade/jsondb",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@git.frozen-doe.net:cascade/jsondb.git",
-                "reference": "e676b55417d4dedcf8aa4edd9c2bfcda75c4ab94"
-            },
-            "require": {
-                "cascade/composer-plugin": ">=1.1"
-            },
-            "type": "cascade-plugin",
-            "extra": {
-                "plugin": "jsondb"
-            },
-            "autoload": {
-                "psr-4": {
-                    "JsonDb\\": "class/"
-                }
-            },
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Josef Kufner",
-                    "email": "jk@frozen-doe.net"
-                }
-            ],
-            "description": "JSON Database browser",
-            "time": "2014-01-22 00:48:46"
-        },
-        {
             "name": "cascade/smalldb",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/smalldb.git",
-                "reference": "43042e56183bcc15b6b898d16af787ac2abf775d"
+                "reference": "888c3d8603bf57fe20034b51ff887658755838ae"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -302,7 +248,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-09-09 07:00:56"
+            "time": "2014-09-28 20:40:20"
         },
         {
             "name": "frozen-doe.net/glip",
@@ -335,57 +281,6 @@
             ],
             "description": "Fork of Git Library In PHP",
             "time": "2014-01-04 23:34:34"
-        },
-        {
-            "name": "michelf/php-markdown",
-            "version": "1.4.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
-                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-lib": "1.4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Michelf": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Michel Fortin",
-                    "email": "michel.fortin@michelf.ca",
-                    "homepage": "http://michelf.ca/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "John Gruber",
-                    "homepage": "http://daringfireball.net/"
-                }
-            ],
-            "description": "PHP Markdown",
-            "homepage": "http://michelf.ca/projects/php-markdown/",
-            "keywords": [
-                "markdown"
-            ],
-            "time": "2014-05-05 02:43:50"
         }
     ],
     "packages-dev": [],
@@ -395,11 +290,9 @@
         "cascade/core": 20,
         "cascade/admin": 20,
         "cascade/block_editor": 20,
-        "cascade/book": 20,
-        "cascade/developers_manual": 20,
         "cascade/duf": 20,
+        "cascade/duf_editor": 20,
         "cascade/git": 20,
-        "cascade/jsondb": 20,
         "cascade/smalldb": 20
     },
     "prefer-stable": true,
