@@ -222,11 +222,11 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/smalldb.git",
-                "reference": "bee3c30a56fa16f4ba3460b0be58836c5e20b893"
+                "reference": "9c8a7b0f388ef9e5e4f9dce90eba2961319acf3b"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
-                "cascade/core": ">=0.11",
+                "cascade/core": ">=0.12",
                 "php": ">=5.4"
             },
             "type": "cascade-plugin",
@@ -248,7 +248,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-10-02 11:13:21"
+            "time": "2014-10-02 12:00:13"
         },
         {
             "name": "frozen-doe.net/glip",
