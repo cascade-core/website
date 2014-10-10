@@ -91,7 +91,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/core.git",
-                "reference": "0f9fb08ef61e914a78d25ed44a6225bcb6fca3c9"
+                "reference": "22cbbebf819e424fe2decd88f2f6fb8904ac9077"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -116,7 +116,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-10-02 11:21:13"
+            "time": "2014-10-10 16:31:18"
         },
         {
             "name": "cascade/duf",
@@ -124,11 +124,12 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/duf.git",
-                "reference": "c1fdf50f513a48a0d45f28020f786180d17e69ad"
+                "reference": "0b7957c5acc98f31f66e9fd49c6bfd49ca38caff"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
-                "cascade/core": ">=0.11"
+                "cascade/core": ">=0.11",
+                "php": ">=5.4.0"
             },
             "suggest": {
                 "cascade/smalldb": "Generate field groups from state machine definition."
@@ -152,7 +153,7 @@
                 }
             ],
             "description": "DUF: Declarative Universal Forms",
-            "time": "2014-09-09 22:25:42"
+            "time": "2014-10-07 22:13:31"
         },
         {
             "name": "cascade/duf_editor",
@@ -222,12 +223,15 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/smalldb.git",
-                "reference": "9c8a7b0f388ef9e5e4f9dce90eba2961319acf3b"
+                "reference": "1a83180c9352391dcf575c6878e5138c2c6dbc4b"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
                 "cascade/core": ">=0.12",
                 "php": ">=5.4"
+            },
+            "suggest": {
+                "flupdo/flupdo": "SQL database support"
             },
             "type": "cascade-plugin",
             "extra": {
@@ -248,7 +252,7 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-10-02 12:00:13"
+            "time": "2014-10-09 14:02:54"
         },
         {
             "name": "frozen-doe.net/glip",
