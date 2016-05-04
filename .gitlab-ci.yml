@@ -5,6 +5,8 @@ deploy:
         stage: deploy
         only:
                 - master@cascade/cascade-website
+        tags:
+                - no-git
         script:
                 - 'curl -o - "$DEPLOY_URL"'
 
