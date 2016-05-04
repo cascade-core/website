@@ -1,0 +1,10 @@
+stages:
+        - deploy
+
+deploy:
+        stage: deploy
+        only:
+                - master@cascade/cascade-website
+        script:
+                - 'curl -o - "$DEPLOY_URL"'
+
