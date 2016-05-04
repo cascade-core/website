@@ -8,5 +8,5 @@ deploy:
         tags:
                 - no-git
         script:
-                - 'curl -o - "$DEPLOY_URL"'
+                - 'curl -sS -o - "$DEPLOY_URL"'
 

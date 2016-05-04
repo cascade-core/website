@@ -20,7 +20,8 @@
 		"cascade/duf": "dev-master",
 		"cascade/duf_editor": "dev-master",
 		"cascade/git": "dev-master",
-		"cascade/smalldb": "dev-master"
+		"cascade/smalldb": "dev-master",
+        "cascade/smalldb_editor": "dev-master"
 	},
 	"config": {
 		"bin-dir": "bin",

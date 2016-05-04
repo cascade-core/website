@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb800956f07f099b0f2956895e7f8469",
+    "hash": "24d5a9e5b4866545515f6b63238caec4",
+    "content-hash": "90f039d8453ce085f99ae319ddcbde36",
     "packages": [
         {
             "name": "cascade/admin",
@@ -12,7 +13,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/administration.git",
-                "reference": "55c3b73e858ed9c925737df7e8790dea3fba10a4"
+                "reference": "b96c10a9d30c656e8559e6bcbb185d9d89f51bda"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -32,7 +33,7 @@
                 }
             ],
             "description": "Administration infrastructure",
-            "time": "2014-05-19 12:24:38"
+            "time": "2015-06-06 16:26:54"
         },
         {
             "name": "cascade/block_editor",
@@ -40,7 +41,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/block-editor.git",
-                "reference": "687d1f61104fa429fbb0d5d16f28b97d4163ee8c"
+                "reference": "02ad1a74c98ee3922dcc2ef1d1b79ae32c71d784"
             },
             "require": {
                 "cascade/admin": "dev-master",
@@ -56,11 +57,15 @@
             "authors": [
                 {
                     "name": "Josef Kufner",
-                    "email": "jk@frozen-doe.net"
+                    "email": "josef@kufner.cz"
+                },
+                {
+                    "name": "Martin Adámek",
+                    "email": "adamema4@fel.cvut.cz"
                 }
             ],
             "description": "Visual block editor",
-            "time": "2014-07-25 10:21:17"
+            "time": "2015-05-20 16:23:15"
         },
         {
             "name": "cascade/composer-plugin",
@@ -91,7 +96,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/core.git",
-                "reference": "22cbbebf819e424fe2decd88f2f6fb8904ac9077"
+                "reference": "7deda6bb5aa5d73442b8026caa7d214a9463bd69"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -116,7 +121,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2014-10-10 16:31:18"
+            "time": "2015-09-15 10:14:24"
         },
         {
             "name": "cascade/duf",
@@ -124,15 +129,17 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/duf.git",
-                "reference": "0b7957c5acc98f31f66e9fd49c6bfd49ca38caff"
+                "reference": "81509c99c79582207a0a012dbf9dd0d3a7b327a1"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
                 "cascade/core": ">=0.11",
+                "cascade/libduf": "dev-master",
                 "php": ">=5.4.0"
             },
             "suggest": {
-                "cascade/smalldb": "Generate field groups from state machine definition."
+                "cascade/smalldb": "Generate field groups from state machine definition.",
+                "erusev/parsedown": "Markdown formated field."
             },
             "type": "cascade-plugin",
             "extra": {
@@ -140,7 +147,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Duf\\": "class/"
+                    "Duf\\Cascade\\": "class/"
                 }
             },
             "license": [
@@ -153,7 +160,7 @@
                 }
             ],
             "description": "DUF: Declarative Universal Forms",
-            "time": "2014-10-07 22:13:31"
+            "time": "2015-05-26 13:35:55"
         },
         {
             "name": "cascade/duf_editor",
@@ -161,7 +168,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/duf-editor.git",
-                "reference": "90dcdb17994301070e2b528f1f8b466708ca3490"
+                "reference": "8c1e17aed09c5e106bf67c159499ab76e4976ecc"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -187,7 +194,7 @@
                 }
             ],
             "description": "Visual editor for Declarative Universal Forms",
-            "time": "2014-10-02 09:00:52"
+            "time": "2014-11-02 20:42:14"
         },
         {
             "name": "cascade/git",
@@ -218,28 +225,56 @@
             "time": "2014-01-22 00:48:43"
         },
         {
-            "name": "cascade/smalldb",
+            "name": "cascade/libduf",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@git.frozen-doe.net:cascade/smalldb.git",
-                "reference": "1a83180c9352391dcf575c6878e5138c2c6dbc4b"
+                "url": "git@git.frozen-doe.net:cascade/libduf.git",
+                "reference": "b66f80a228f574f472d7007a5cc40e9aa49ef6be"
             },
             "require": {
-                "cascade/composer-plugin": ">=1.1",
-                "cascade/core": ">=0.12",
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "cascade/smalldb": "Generate field groups from state machine definition.",
+                "erusev/parsedown": "Markdown formated field."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Duf\\": "class/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "josef@kufner.cz"
+                }
+            ],
+            "description": "libDUF: Declarative Universal Forms",
+            "time": "2015-12-22 21:15:03"
+        },
+        {
+            "name": "cascade/libsmalldb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.frozen-doe.net:cascade/libsmalldb.git",
+                "reference": "11333228207a5c9ea8826a2155071e12d848a0be"
+            },
+            "require": {
                 "php": ">=5.4"
             },
             "suggest": {
                 "flupdo/flupdo": "SQL database support"
             },
-            "type": "cascade-plugin",
-            "extra": {
-                "plugin": "smalldb"
-            },
+            "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Smalldb\\": "class/"
+                    "Smalldb\\StateMachine\\": "class/"
                 }
             },
             "license": [
@@ -252,7 +287,74 @@
                 }
             ],
             "description": "Smalldb: State machine abstraction layer",
-            "time": "2014-10-09 14:02:54"
+            "time": "2015-12-23 02:06:38"
+        },
+        {
+            "name": "cascade/smalldb",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.frozen-doe.net:cascade/smalldb.git",
+                "reference": "5f475803114db6d4faf9088f0d2ebc85399bb2b0"
+            },
+            "require": {
+                "cascade/composer-plugin": ">=1.1",
+                "cascade/core": ">=0.12",
+                "cascade/libsmalldb": "dev-master",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "flupdo/flupdo": "SQL database support"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "smalldb"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Smalldb\\Cascade\\": "class/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Josef Kufner",
+                    "email": "jk@frozen-doe.net"
+                }
+            ],
+            "description": "Smalldb: State machine abstraction layer",
+            "time": "2015-12-07 12:26:29"
+        },
+        {
+            "name": "cascade/smalldb_editor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@git.frozen-doe.net:cascade/smalldb-editor.git",
+                "reference": "020e56855224c9061a294bb42c97f72f1f3ee9f2"
+            },
+            "require": {
+                "cascade/admin": "dev-master",
+                "cascade/composer-plugin": ">=1.1",
+                "cascade/duf": "dev-master"
+            },
+            "type": "cascade-plugin",
+            "extra": {
+                "plugin": "smalldb_editor"
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Adámek",
+                    "email": "adamema4@fel.cvut.cz"
+                }
+            ],
+            "description": "Visual Smalldb state machine editor",
+            "time": "2015-05-09 14:52:42"
         },
         {
             "name": "frozen-doe.net/glip",
@@ -297,9 +399,11 @@
         "cascade/duf": 20,
         "cascade/duf_editor": 20,
         "cascade/git": 20,
-        "cascade/smalldb": 20
+        "cascade/smalldb": 20,
+        "cascade/smalldb_editor": 20
     },
     "prefer-stable": true,
+    "prefer-lowest": false,
     "platform": [],
     "platform-dev": []
 }
