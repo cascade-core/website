@@ -4,6 +4,10 @@
         "title": "Introduction",
         "link": "/"
     },
+    "doc": {
+        "title": "Documentation",
+        "link": "/doc"
+    },
     "admin": {
         "title": "Administration",
         "link": "/admin"
