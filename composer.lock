@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24d5a9e5b4866545515f6b63238caec4",
-    "content-hash": "90f039d8453ce085f99ae319ddcbde36",
+    "hash": "0015465a827738aaff8bc0ea5bb7bcc2",
+    "content-hash": "edfe447b9f8dbe8431e0b57318254d1a",
     "packages": [
         {
             "name": "cascade/admin",
@@ -41,7 +41,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/block-editor.git",
-                "reference": "02ad1a74c98ee3922dcc2ef1d1b79ae32c71d784"
+                "reference": "fa1638b416a9376e0f123456d01f2af13d289692"
             },
             "require": {
                 "cascade/admin": "dev-master",
@@ -65,7 +65,7 @@
                 }
             ],
             "description": "Visual block editor",
-            "time": "2015-05-20 16:23:15"
+            "time": "2016-02-29 22:29:06"
         },
         {
             "name": "cascade/composer-plugin",
@@ -92,11 +92,11 @@
         },
         {
             "name": "cascade/core",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/core.git",
-                "reference": "7deda6bb5aa5d73442b8026caa7d214a9463bd69"
+                "reference": "8117217fa6a583d96eedf8352d02a40536a67bd4"
             },
             "require": {
                 "cascade/composer-plugin": ">=1.1",
@@ -121,7 +121,7 @@
                 }
             ],
             "description": "Core of the framework",
-            "time": "2015-09-15 10:14:24"
+            "time": "2016-12-01 19:43:15"
         },
         {
             "name": "cascade/duf",
@@ -333,7 +333,7 @@
             "source": {
                 "type": "git",
                 "url": "git@git.frozen-doe.net:cascade/smalldb-editor.git",
-                "reference": "020e56855224c9061a294bb42c97f72f1f3ee9f2"
+                "reference": "242280e53b5258b6d4a08249ceac74d31ebf6913"
             },
             "require": {
                 "cascade/admin": "dev-master",
@@ -354,7 +354,7 @@
                 }
             ],
             "description": "Visual Smalldb state machine editor",
-            "time": "2015-05-09 14:52:42"
+            "time": "2016-08-18 20:18:35"
         },
         {
             "name": "frozen-doe.net/glip",
@@ -393,7 +393,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "cascade/core": 20,
         "cascade/admin": 20,
         "cascade/block_editor": 20,
         "cascade/duf": 20,
